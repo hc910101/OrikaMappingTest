@@ -8,5 +8,10 @@ public class DogForExport extends AnimalForExport{
 		this.tailColor = tailColor;
 	}
 
+	@Override
+	public String toString() {
+		return "DogForExport [tailColor=" + tailColor + "]";
+	}
+
 
 }

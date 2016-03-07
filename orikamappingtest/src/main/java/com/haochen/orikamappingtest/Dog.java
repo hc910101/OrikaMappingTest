@@ -8,4 +8,8 @@ public class Dog extends Animal{
 		this.tailColor = tailColor;
 		this.dogSecret = dogSecret;
 	}
+	@Override
+	public String toString() {
+		return "Dog [tailColor=" + tailColor + ", dogSecret=" + dogSecret + "]";
+	}
 }

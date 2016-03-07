@@ -7,4 +7,9 @@ public class AnimalForExport {
 		super();
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "AnimalForExport [name=" + name + "]";
+	}
 }
